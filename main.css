@@ -1,0 +1,51 @@
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.card-body{
+  max-width: fit-content;
+  max-height: fit-content;
+  text-align: center;
+  border: 1px;
+  border-color: lightblue;
+  border-style: solid;
+}
+.Available{
+  background-color: darkgray;
+  color: yellow;
+}
+.eggplant{
+  padding: 15px;
+}
+.mushrooms{
+  padding: 15px;
+}
+.squash{
+  padding: 15px;
+}
+.scallops{
+  padding: 15px;
+}
+.beef{
+  padding: 15px;
+}
+.tomato{
+  padding: 15px;
+}
+.specifications{
+  font-weight: bold;
+}
+.Pricing{
+  font-weight: bold;
+}
+.images{
+  position: relative;
+}
+.card-img-top2{
+  position: absolute;
+}
+.soldOut{
+  position: relative;
+}
